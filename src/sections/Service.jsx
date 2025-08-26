@@ -1,6 +1,6 @@
 export default function Service() {
   return (
-    <div className="lg:min-h-screen relative px-4  md:px-8 lg:px-40  ">
+    <div className="lg:min-h-screen pb-30  md:py-20  relative px-4  md:px-8 lg:px-40  ">
       {/* element */}
       <img src="./assets/images/pattern.png" alt="" className=" h-[100px] md:h-[140px] lg:h-[166px] absolute top-24 right-10 md:top-44  md:right-16 lg:top-20  lg:right-16" />
       <div className="flex flex-col justify-center items-center  min-h-screen ">
