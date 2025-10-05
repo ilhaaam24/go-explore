@@ -32,7 +32,7 @@ export default function Destination() {
       <div className="text-center ">
         <p className="font-poppins font-semibold text-lg text-[#5E6282]">Top Selling</p>
         <h2 className="font-volkhov text-3xl md:text-4xl lg:text-[50px] font-bold text-[#181E4B]">Top Destinations</h2>
-        <div className="mt-[60px] grid grid-cols-1 place-items-center md:grid-cols-3 lg:grid-cols-3 gap-8">
+        <div className="mt-[60px] grid grid-cols-1 place-items-center md:grid-cols-3 lg:grid-cols-3 gap-8 md:gap-4 lg:gap-8">
           {Destinations.map((destination) => (
             <DestinationCard key={destination.id} destination={destination} />
           ))}

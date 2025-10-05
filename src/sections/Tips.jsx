@@ -1,35 +1,39 @@
 export default function Tips() {
   return (
     <div className="lg:min-h-screen pb-30  md:py-20  flex flex-col  md:flex-row lg:flex-row  justify-between items-center relative px-4  md:px-8 lg:px-40 ">
-      <div className="">
+      <div className=" w-full md:max-w-[380px] lg:max-w-[511px] ">
         <p className="font-poppins font-semibold text-lg text-[#5E6282]">Easy and Fast</p>
         <h2 className="font-volkhov text-3xl  lg:max-w-[511px] md:text-4xl lg:text-[50px] font-bold text-[#181E4B] mt-3.5">Book your next trip in 3 easy steps</h2>
         <div className="mt-[30px] flex flex-col gap-12">
-          <div className="flex gap-5 ">
-            <div className="size-13 bg-[#F0BB1F] rounded-xl flex justify-center items-center">
-              <img src="./assets/icons/selection.png" alt="selection" className="size-[22px]" />
+          <div className="flex gap-4 md:gap-5 items-start">
+            <div className="h-12 w-12 md:h-[52px] md:w-[52px] bg-[#F0BB1F] rounded-xl flex justify-center items-center flex-shrink-0">
+              <img src="./assets/icons/selection.png" alt="selection" className="w-4 h-4 md:w-[22px] md:h-[22px]" />
             </div>
-            <div>
-              <p className="font-poppins font-bold text-[#5E6282]">Choose Destination</p>
-              <p className="mt-1 font-poppins text-[#5E6282] max-w-[327px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. </p>
-            </div>
-          </div>
-          <div className="flex gap-5 ">
-            <div className="size-13 bg-[#F15A2B] rounded-xl flex justify-center items-center">
-              <img src="./assets/icons/swimming.png" alt="selection" className="size-[22px]" />
-            </div>
-            <div>
-              <p className="font-poppins font-bold text-[#5E6282]">Make Payment</p>
-              <p className="mt-1 font-poppins text-[#5E6282] max-w-[327px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. </p>
+            <div className="flex-1 max-w-[320px]">
+              <p className="font-poppins font-bold text-sm md:text-base text-[#5E6282]">Choose Destination</p>
+              <p className="mt-1 font-poppins text-sm md:text-base text-[#5E6282]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.</p>
             </div>
           </div>
-          <div className="flex gap-5 ">
-            <div className="size-13 bg-[#006380] rounded-xl flex justify-center items-center">
-              <img src="./assets/icons/taxi.png" alt="selection" className="size-[22px]" />
+
+          {/* Step 2 */}
+          <div className="flex gap-4 md:gap-5 items-start">
+            <div className="h-12 w-12 md:h-[52px] md:w-[52px] bg-[#F15A2B] rounded-xl flex justify-center items-center flex-shrink-0">
+              <img src="./assets/icons/swimming.png" alt="selection" className="w-4 h-4 md:w-[22px] md:h-[22px]" />
             </div>
-            <div>
-              <p className="font-poppins font-bold text-[#5E6282]">Reach Airport on Selected Date</p>
-              <p className="mt-1 font-poppins text-[#5E6282] max-w-[327px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus. </p>
+            <div className="flex-1 max-w-[320px]">
+              <p className="font-poppins font-bold text-sm md:text-base text-[#5E6282]">Make Payment</p>
+              <p className="mt-1 font-poppins text-sm md:text-base text-[#5E6282]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.</p>
+            </div>
+          </div>
+
+          {/* Step 3 */}
+          <div className="flex gap-4 md:gap-5 items-start">
+            <div className="h-12 w-12 md:h-[52px] md:w-[52px] bg-[#006380] rounded-xl flex justify-center items-center flex-shrink-0">
+              <img src="./assets/icons/taxi.png" alt="selection" className="w-4 h-4 md:w-[22px] md:h-[22px]" />
+            </div>
+            <div className="flex-1 max-w-[320px]">
+              <p className="font-poppins font-bold text-sm md:text-base text-[#5E6282]">Reach Airport on Selected Date</p>
+              <p className="mt-1 font-poppins text-sm md:text-base text-[#5E6282]">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Urna, tortor tempus.</p>
             </div>
           </div>
         </div>

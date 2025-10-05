@@ -51,12 +51,12 @@ export default function Hero() {
             Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.
           </Motion.p>
           <div className="flex items-center  mt-9">
-            <button className=" text-base md:text-lg font-medium text-white bg-[#F1A501]  rounded-[10px] px-4 py-4 md:px-6 md:py-4 shadow-2xl/50 shadow-[#F1A501] cursor-pointer">Find out more</button>
-            <div className="ml-11  flex items-center gap-5 ">
-              <button className="rounded-full bg-[#DF6951] size-[48px] md:size-[58px] flex items-center justify-center shadow-2xl/80 shadow-[#DF6951] cursor-pointer">
+            <button className=" text-sm md:text-lg font-medium text-white bg-[#F1A501]  rounded-[10px] px-4 py-3 md:px-6 md:py-4 shadow-2xl/50 shadow-[#F1A501] cursor-pointer">Find out more</button>
+            <div className="ml-11  flex items-center gap-4 md:gap-5 ">
+              <button className="rounded-full bg-[#DF6951] size-[40px] md:size-[58px] flex items-center justify-center shadow-2xl/80 shadow-[#DF6951] cursor-pointer">
                 <img src="./assets/icons/polygon.png" alt="icon polygon" className="size-[15px]" />
               </button>
-              <p className="font-medium font-poppins text-lg text-[#686D77]">Play Demo</p>
+              <p className="font-medium font-poppins text-sm md:text-lg text-[#686D77]">Play Demo</p>
             </div>
           </div>
         </div>
